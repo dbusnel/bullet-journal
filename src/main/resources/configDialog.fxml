@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="204.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs3500.pa05.controller.ConfigsController">
+   <children>
+      <Label fx:id="configsTitle" layoutX="193.0" layoutY="14.0" text="Please set the following configurations!!" />
+      <Label fx:id="maxTask" layoutX="14.0" layoutY="57.0" text="Maximum tasks per day:" />
+      <Label fx:id="maxEvent" layoutX="14.0" layoutY="118.0" text="Maximum events per day:" />
+      <TextField fx:id="maxTaskInput" layoutX="193.0" layoutY="53.0" />
+      <TextField fx:id="maxEventInput" layoutX="193.0" layoutY="114.0" />
+      <Button fx:id="submitButton" layoutX="531.0" layoutY="165.0" mnemonicParsing="false" text="Submit" />
+   </children>
+</AnchorPane>
