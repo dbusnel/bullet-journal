@@ -1,4 +1,5 @@
 # JavaFX - BulletJournal
+By David Busnel, August Erikson, and Sarthak Kakkar
 
 ![img_1.png](img_1.png)
 # Plan your week neatly and efficiently!
